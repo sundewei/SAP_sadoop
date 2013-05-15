@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>com.sap.hadoop.concurrent.PoolContext.thread_count</name>
+        <value>10</value>
+        <description>
+            The default thread pool size used by com.sap.hadoop.concurrent.PoolContext
+        </description>
+    </property>
+    <property>
+        <name>com.sap.hadoop.conf.ConfigurationManager.confUrl</name>
+        <value>http://llbpal36.pal.sap.corp:8080/shc/conf/</value>
+        <description>
+            The URL to get all the Hadoop configuration files
+        </description>
+    </property>
+</configuration>
