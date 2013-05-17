@@ -120,12 +120,5 @@
         <!-- Delete the ${build} and ${dist} directory trees -->
         <delete dir="${build}"/>
         <delete dir="${dist}"/>
-    </target>
-
-    <target name="run1">
-        <java classname="com.sap.hdfs.io.FileSystemImpl" fork="true" failonerror="true" maxmemory="128m">
-            <arg value="-h"/>
-            <classpath refid="classpath.base"/>
-        </java>
-    </target>
+    </target>    
 </project>
